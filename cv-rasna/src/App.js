@@ -1,18 +1,32 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { match } from './router'
+import Nav from 'Components/Nav'
+import './App.css'
 
 class App extends Component {
   render() {
+
+    const { route, params } = match(this.props.location.pathname)
+
+    const Page = route.page
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Rasna Bura Gohain</h1>
-        </header>
-      </div>
-    );
+      <main>
+        <Nav />
+        <hr />
+        <div className='App'>
+          <Page {...params} />
+          <hr />
+        </div>
+      </main>
+    )
   }
 }
 
-export default App;
+
+const mapStateToProps = state => ({
+  location: state.location,
+  state,
+})
+
+export default connect(mapStateToProps)(App);
