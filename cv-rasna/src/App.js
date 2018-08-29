@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { match } from './router'
 import Nav from 'Components/Nav'
 import './App.css'
+import Footer from './Pages/Footer';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Page {...params} />
           <hr />
         </div>
+        <Footer />
       </main>
     )
   }
