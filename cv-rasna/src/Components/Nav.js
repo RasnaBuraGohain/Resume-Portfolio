@@ -6,13 +6,14 @@ import Link from 'Components/Link'
 const Nav = ({ dispatch }) => {
 
     return (
-        <nav>
-            <Link to="/">Home</Link>
-            <Link to="/profile">Profile</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-
-        </nav>
+        <header>
+            <nav>
+                <Link to="/">Home</Link>
+                <Link to="/profile">Profile</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
+            </nav>
+        </header>
     )
 }
 
