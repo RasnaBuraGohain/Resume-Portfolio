@@ -14,10 +14,8 @@ class App extends Component {
     return (
       <main>
         <Nav />
-        <hr />
         <div className='App'>
           <Page {...params} />
-          <hr />
         </div>
         <Footer />
       </main>

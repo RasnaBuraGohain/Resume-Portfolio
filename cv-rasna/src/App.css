@@ -5,11 +5,6 @@ div {
 .App {
   max-width: 80%;
   margin: 20px auto;
-  border: 1px solid rgba(170, 170, 170, 0.322);
-  border-top-right-radius: 80px;
-  border-top-left-radius: 80px;
-  border-bottom-right-radius: 80px;  
-  background-color: rgba(255, 255, 255, 0.562);
   padding: 5%;
 }
 
