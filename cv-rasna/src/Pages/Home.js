@@ -5,7 +5,7 @@ const HomeView = () => (
     <main>
         <h1>Hello there, I'm Rasna </h1>
         <div className="profile">
-            <img src={rasna} alt="welcome" ></img>
+            <img src={rasna} alt="rasna" ></img>
 
             <p>With the core interest in <b>Graphic Designing</b> I recently completed a Front-End
             Development course at Intec-Brussel.
