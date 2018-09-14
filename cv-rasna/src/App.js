@@ -12,13 +12,13 @@ class App extends Component {
 
     const Page = route.page
     return (
-      <main>
+      <div>
         <Nav />
         <div className='App'>
           <Page {...params} />
         </div>
         <Footer />
-      </main>
+      </div>
     )
   }
 }

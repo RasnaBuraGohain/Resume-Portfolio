@@ -9,7 +9,7 @@ const AboutView = ({ dispatch }) => (
         <div className="profile">
             <img src={rasna} alt="rasna" ></img>
 
-            <p>With the core interest in <b>Graphic Designing</b> I recently completed a Front-End
+            <p className="profileP">With the core interest in <b>Graphic Designing</b> I recently completed a Front-End
             Development course at Intec-Brussel.
                 A creative and ambitious person with a <b>Bachelors’ Degree</b> in Fashion from India and <b>Advanced Diploma</b> in Fashion
                 from New Zealand.
