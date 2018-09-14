@@ -2,11 +2,11 @@ import React from 'react'
 
 
 const HomeView = () => (
-    <div>
+    <main>
         <h1>Rasna Bura Gohain</h1>
         <p>Front-End Developer | Graphic Designer | Fashion designer | Stylist</p>
 
-    </div>
+    </main>
 )
 
 export default HomeView

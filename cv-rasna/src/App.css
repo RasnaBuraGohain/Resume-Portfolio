@@ -44,8 +44,10 @@ img {
   width: 350px;
   height: 300px; 
 }
+h1 {
+  color: #460101;
+}
 p{
-  padding: 10px;
   text-align: justify;
   width : 100%;
 }
