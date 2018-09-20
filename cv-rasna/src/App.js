@@ -4,6 +4,7 @@ import { match } from './router'
 import Nav from 'Components/Nav'
 import './App.css'
 import Footer from './Pages/Footer';
+//import Cursor from 'Cursor/Cursor'
 
 class App extends Component {
   render() {
